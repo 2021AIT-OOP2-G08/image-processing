@@ -40,5 +40,6 @@ $ python xxx.py
   - contour：輪郭抽出の保存用フォルダ
   - detection：検出の保存用フォルダ
   - grayscale：グレイスケールの保存用フォルダ
+  - input：送信された画像を保存するフォルダ
 - template：web用のフォルダ
   - 
