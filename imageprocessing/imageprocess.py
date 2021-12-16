@@ -26,7 +26,8 @@ if __name__ == "__main__":
     except KeyboardInterrupt:   #ctrl-C実行時
         observer.stop()         #監視修了
     observer.join()
-    img_gray()
+
+img_gray(filepath)
 
 
 
