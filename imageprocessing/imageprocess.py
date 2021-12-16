@@ -1,8 +1,10 @@
+
 import sys
 import time
 import logging
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
+from imageprocessing.grayScale import img_gray
 
 if __name__ == "__main__":
     #ロギングの設定
@@ -24,3 +26,10 @@ if __name__ == "__main__":
     except KeyboardInterrupt:   #ctrl-C実行時
         observer.stop()         #監視修了
     observer.join()
+    img_gray()
+
+
+
+
+
+
