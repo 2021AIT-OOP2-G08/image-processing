@@ -11,7 +11,7 @@ class ChangeHandler(FileSystemEventHandler):
         filepath = event.src_path
         #filename = os.path.basename(filepath)
         print('%sを作成しました。' % filepath)
-        #ここに引数filepathでクラスを呼び出すよ
+        #ここに引数filepathでクラスを呼び出すよよ
 
 if __name__ == "__main__":
     #ロギングの設定
