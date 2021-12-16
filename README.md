@@ -40,5 +40,10 @@ $ python xxx.py
   - contour：輪郭抽出の保存用フォルダ
   - detection：検出の保存用フォルダ
   - grayscale：グレイスケールの保存用フォルダ
+  - input:送信された画像を保存するフォルダ
+  - imageprocessing.py：画像処理をするソースコード
+  - Togawawatchdog.py：watchdogを管理するソースコード
 - template：web用のフォルダ
   - 
+- static:CSSを保存するフォルダ
+  -    
