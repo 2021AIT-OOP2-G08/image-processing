@@ -7,5 +7,5 @@ class img_gray():
         im_file = os.path.basename(img_name)
         #画像を読み込み
         im = cv2.imread(f'./{im_file}',cv2.IMREAD_GRAYSCALE)
-        #書き込み
+        #書き込み_
         cv2.imwrite(f'./imageprocessing/grayscale/out_{im_file}',im)
