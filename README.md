@@ -33,3 +33,12 @@ $ python xxx.py
 - Flask
 
 - Opencv
+
+## 構成
+
+- imageprocessing :画像処理用のフォルダ
+  - contour：輪郭抽出の保存用フォルダ
+  - detection：検出の保存用フォルダ
+  - grayscale：グレイスケールの保存用フォルダ
+- template：web用のフォルダ
+  - 
