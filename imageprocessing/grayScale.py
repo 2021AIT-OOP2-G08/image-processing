@@ -10,4 +10,4 @@ class img_gray():
 
 if __name__ == '__main__':
     a = img_gray()
-    a.grayscale('./input/a.png')
+    #a.grayscale('./input/a.png')
