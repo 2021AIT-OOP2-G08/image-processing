@@ -1,2 +1,2 @@
 class GrayScale():
-    pass
+    print(1)
