@@ -34,6 +34,8 @@ $ python xxx.py
 
 - Opencv
 
+- watchdog
+
 ## 構成
 
 - imageprocessing :画像処理用のフォルダ
