@@ -4,6 +4,8 @@ import logging
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 
+print("aaa")
+
 if __name__ == "__main__":
     #ロギングの設定
     logging.basicConfig(level=logging.INFO,
