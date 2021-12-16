@@ -1,10 +1,25 @@
 
+import cv2
+
+
+
 import sys
 import time
 import logging
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 from imageprocessing.grayScale import img_gray
+
+#画像のパスの文字列を引数にとる
+class CannyProcess:
+    th1 = 80
+    th2 = 80
+    #画像のパスの文字列を引数にとる 
+    def fCanny(self,img) :
+        self.img = cv2.imread(img, cv2.IMREAD_GRAYSCALE)
+        self.canny_img = cv2.Canny(self.img,self.th1,self.th2)
+        return self.canny_img
+        
 
 if __name__ == "__main__":
     #ロギングの設定
@@ -28,8 +43,6 @@ if __name__ == "__main__":
     observer.join()
 
 img_gray(filepath)
-
-
 
 
 
