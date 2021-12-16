@@ -13,12 +13,15 @@ def Eturan():
 
 @app.route('/Eturan/Grayscale', methods=["POST"])
 def Grayscale():
+    #この中に処理された画像を取得する処理を書く
     return render_template('Grayscale.html')
 
 @app.route('/Eturan/Rinkaku', methods=["POST"])
-def Grayscale():
+def Rinkaku():
+    #この中に処理された画像を取得する処理を書く
     return render_template('Rinkaku.html')
 
 @app.route('/Eturan/Waku', methods=["POST"])
-def Grayscale():
+def Waku():
+    #この中に処理された画像を取得する処理を書く
     return render_template('Waku.html')
