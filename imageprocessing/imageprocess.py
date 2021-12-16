@@ -72,6 +72,6 @@ if __name__ == "__main__":
         observer.stop()         #監視修了
     observer.join()
     
-    facedetect()　#顔検出
+    facedetect() #顔検出
 
 img_gray(filepath)
