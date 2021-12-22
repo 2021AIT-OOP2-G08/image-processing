@@ -9,12 +9,12 @@
 <body>
     <h1>アップロード</h1>
     <ol>
-        <li><a href="/Eturan">アップロードの閲覧</a></li>
-        <li><a href="/Grayscale">グレイスケール</a></li>
-        <li><a href="/Rinkaku">輪郭</a></li>
-        <li><a href="/Waku">枠</a></li>
+        <li><a href="/eturan">アップロードの閲覧</a></li>
+        <li><a href="/grayscale">グレイスケール</a></li>
+        <li><a href="/rinkaku">輪郭</a></li>
+        <li><a href="/waku">枠</a></li>
     </ol>
-    <form method="post" enctype="multipart/form-data">
+    <form action="/upload" method="post" enctype="multipart/form-data">
         <input type="file" name="example" accept=".png" required>
         <button type="submit">送信する</button>
       </form>
