@@ -9,10 +9,10 @@
 
 ### ○画像処理
 
-- 市橋皇宜
-- 亀井愛琉海
-- 林直希
-- 戸川浩汰
+- 市橋皇宜:グレースケール化
+- 亀井愛琉海:顔検出
+- 林直希:cannyフィルタによる輪郭抽出
+- 戸川浩汰:watchdog
 
 ## システムの動作確認法
 
@@ -34,11 +34,18 @@ $ python xxx.py
 
 - Opencv
 
+- watchdog
+
 ## 構成
 
 - imageprocessing :画像処理用のフォルダ
   - contour：輪郭抽出の保存用フォルダ
   - detection：検出の保存用フォルダ
   - grayscale：グレイスケールの保存用フォルダ
+  - input:送信された画像を保存するフォルダ
+  - imageprocessing.py：画像処理をするソースコード
+  - Togawawatchdog.py：watchdogを管理するソースコード
 - template：web用のフォルダ
   - 
+- static:CSSを保存するフォルダ
+  -    
